@@ -1,0 +1,298 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="654,3345" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="84">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>System.Windows.Documents</x:String>
+      <x:String>System.Windows</x:String>
+      <x:String>System.Windows.Media.Animation</x:String>
+      <x:String>System.Windows.Threading</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="33">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="530,3280" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+      <Variable x:TypeArguments="x:Int32" Default="2" Name="cnt" />
+      <Variable x:TypeArguments="sd:DataTable" Name="FirstTable" />
+      <Variable x:TypeArguments="sd:DataTable" Name="inputVariable" />
+      <Variable x:TypeArguments="x:String" Name="variable1" />
+      <Variable x:TypeArguments="x:Int32" Default="50000" Name="max" />
+      <Variable x:TypeArguments="x:Int32" Default="1" Name="min" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="sum" />
+      <Variable x:TypeArguments="x:Double" Default="0" Name="med" />
+      <Variable x:TypeArguments="x:Int32" Default="950" Name="nr" />
+      <Variable x:TypeArguments="scg:List(x:Int32)" Default="[new List(of Int32)]" Name="listaPret" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:BuildDataTable DataTable="[FirstTable]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="488,59" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Nume&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;AnKm&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Pret&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="488,1463" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="IfNotOpen" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="454,1247" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click nr de rezultate pe pagina" sap:VirtualizedContainerService.HintSize="412,166" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.mobile.de/ro/automobil/mazda-cx-5/vhc:car,ms1:16800_33_,frn:2012,frx:2018,mlx:100000,vcg:" DesignTimeRectangle="1042, 994, 40, 30" ElementType="Text" FriendlyName="'50'" FullSelectorArgument="&lt;webctrl aaname='50' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='50' tag='A' type='' check:text='50' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAiCAYAAAAkjjtxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKvSURBVFhH7Zg9aypBFIbvf7IQC8FGLAQRDMEmIIJ90FK01UKCRQqTKqTVQCobRQQVY8DCEPwmgkaNBBW/yxPegR12s25uLne9u+F64C10zsw858zZmdn9RT/Mfj7wfD6nTqdDT09PVKvVNBHmBgNYPpsEuN1uU6vVovf3d9put7Tb7TQR5gYDWMAkNg6MaOCw2Wz2DqKFwAImcaY5MCJBVPs6aikwibPMgVE7WpaBksAENsEkwPs66EFH4EPr/wWuVCp0eXkp0fX1NQ0GA+4zHA4pkUiQx+Mhv99PhULhj7dO1YAvLi7IYDBIZLfbqdFosPZ6vU5Op1PSbjQa6ebmhtbrtWw8JakCvFgsKBgMksvlopeXF1n7crmkcDjMIGOxGL29vVEulyOLxUI2m42en59lfZSkCvBkMmHLfHZ2xkDK5TL7T2hHEAhGnHFkNRKJsCBub2+57++kCjBOH4fDIVluk8nEl7tarZLZbGYBIbtCv1QqxXxRTuLxvpIqwFjyTCbD+gEom82ybALy8fGRZRxgugH+LByhqFXAAAplgADcbjf1+33uE4/Hmc/V1ZVsDCWpAvz6+koPDw/8/oEbVSgUYjD39/c0nU7p/Pyc/U4mk8wP2x3qHjtFPp+XjamkvwZerVbs4cHEPp+PLa/X62VwJycn1O12mV86nWY+0OnpKVmtVuaD3WU2m8nGVZIqGUZdRqNR9qABAlCBQIB6vR73wcN3d3fHQeGDrU5c09+RKsCCAIXtDCWxrx36js9XUhX4X+gIfGgdgQ8tRWDhENCTwLQXGEepXl/zwSYYB8Z532w2dfchBUxgE4wDI/X4yoJr4Xg81hQcc4MBLGACm2AcGIa3CAG6VCpRsVjURJhbgAWT2CTAMESDuhmNRuwFUgthbjCIMyuYDFjfRvQBNkreN0kdywYAAAAASUVORK5CYII=" InformativeScreenshot="87766b264c23c3edb875c6b27a070d5e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mazda CX-5 second-hand | Automobil second-hand | mobile.de' /&gt;" SearchSteps="Selector">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="805, 1003, 132, 14" ElementType="Text" FriendlyName="'Rezultate pe pagină'" FullSelectorArgument="&lt;webctrl aaname='Rezultate pe pagină:' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Rezultate pe pagină:' tag='SPAN' type='' check:text='Rezultate pe pagină:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIgAAAASCAYAAACAR5Z3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAbNSURBVGhD7Zn5U5VlFMf7S+qXfqkfctqmsV+01UpTRy3NhdCwFHfFrbBEqhlXBlI0FHcFzAVFS1FrklTMxBW10YsKhKagKAii4InP6Z53Hl+4lyX4xe535pn7Pts5zznv95znvPCERBBBGEQIEkFYRAgSQVh4BLl+/bqsSF8lqanfey0zc5NcvXotuKLzYLrXrd8o1dV3g6MRhEJ9fb2kLU+Xl17uKnv37g+Ohgc+3rnzR6mrq5OHDx/KgQO/ycmTp4KzoeERJBAokh7v9JInn3r6kdb11W5yOP9IcFXnwHQPGzZcbt68JVeuFEvsmPHaeG4NVq1aI0OHRuvv44579+5JfPxX+n5Wr14bHA2P2tpaSUj4Wvr0HSADPhgkw0eMlL/KyoKzodGEIDSe79y5I98tTtVDTJwU1xjZ1cGVHQ8/QfxnaQ2SkxfrWfn9P+D+/ftSWVkpDx7UB0daRkNDg+5py76QBAH5R35Xp0cPj1GhsHDlyjXS/bW3dBwmHjx4SFOWRbC/7cndK9u2bdf1M2fGqwxIABlMl+lm7PLlKzJp8lR55tku2tCB7DNnCiUubro81+VFlfV2j56StWmzGooOOxO/lnmY274jR/r06e/toe93jumfMmWarFm7XrMmutHnRllh4VkZHTtO5zjHvHkL5datyuDsv8A+7ETe1q3Z8tHgqCa+Ki4ukTlzvlE9zPG7dGma3L1bozJYw1r2MD/y01i97nk2H1pA4FvzJ33WkR14Hj9hsty4caPR3gd6vdhZaKw5ceKk6rPswjmOHv1DxwxNCNKt+5uqdNeunzylCxYmNaa1OnUIfYzbvXuPKjGhLkFIY6xjLi/vYIcQ5HijMYOHRKljaO/37qfzkKM5giBn48ZMHRs3bqLs3/+LJxeSuDD9dmb0mDwIQXCcPXdOXn+jh65j/5LUZUqSWV8mqE0GIwh77fyuP7j3IcjH0TEyf/4izdLm5/T01UoOApP6gjG7EpBFvyWCcCbWWyBRq5A5lq9YqX6gtkxM/Fbn+/UfKCUlpWofSYD1EMxFizWIsdDmPxw4RAJFRXqoXw/kyfMvvKKEIeUBImr6jC/UoOzsHWpwWwjCnPVtHmAkjauPNWvXbVCZc+cu0KLNHMYvqKi4KVFRI/SlFhQc1z2nTp2Wd9/rLaNGj1U5BtPHWogAKM4HDhqqdhw7ViApKUtUPnqRde3a32onLxK5BpcgEBT7yVgWXIuXLNUxbKEgRxbkZY6r/Pbt22oTfXSyl/VG9pYIYjr9PsdHyIIMZWVXNViYp1gF5eXlmqUpYl00IQhpeN++nz3nQAJAlkBgc80OQYq04gmmWirvCIKcPn3mkRRpze8wI4jJ8K+nmR6DXz9AJrJZv6nxKrPn5pqblt197rjrg0AgoFnOlUFDP8S0/ewxmP+Zc+31E8R0uuurqqrlh81bNIMx5jZXR3MIWYOYQdx/5RUVGllcP0Ql0WkgEixKIAV7kpJS1AiDyZo2/XOpqalposv/gi5duiw9e/X15t2qPTd3n+o0meYwIpO+EYQIJ9uZDIOd14V7ngsXLuqYZRBkHjqc70W161DLBC5cglCDmG8sgyxKSvaKf75AmLOXif341rIV/uLjgKg2QrSHIOfP/6n+5OqhNnPPaPYwRnbx2xOSICzm/kUIdyMvlvuWPuPUKPzt4pOYz/QApF4yDo2DWD1C/UCKtzkIxzxyTJfpNoK4dyJ1TkZmlkcQ7m3IGjd1hvbNYTtydmqf2iF+1mwpLimRZcuW6xhyt2zZJus3ZEhMzKgmn+2m3/Yjk0xK3wIEhxOBzBMI2M8LpLi0TAlc53PPjx070Ssa2Y8cIzM2YAs20Tf7IakV1tasJjF720MQ9HNu6kKTz/6qqioZM2aC13cRkiCA64WXanczjrL6AmE4gP7FiwHPKf6GIVw9sxMStc9eHOPq8hOEqCO6TA8yIBmFKX1eHpHIszmstLRUMwZjJhe9rLOCDXmQm+vKzSKmH+JST5leXmxR0SVdw/rde3I94tBwcvb2nEfubZcgFPdW7PJLYY8cZLqkIbsg1+wHFI/zFyzSQElLW6H1HOsJFDJqWwjCFUMAmx+oK/lis/1GEOym4HfhEaQtoCDlUFaYthYUZTiwtWAtxaS9TNIffTdiXTBP9vGfi/WMh9LtJ6hfrwvGmAs17xKEl2S6/Wc2Oc35kEAk8/Ilxicq1529UP9XRluArlDn5nz2me2iXQR53OAnyH+BnyDtQUZGlu73N7Jwcy+xMxEhSCM68n9BRCnXDnWKXU9tBZmQOoQ/2iGHv2HwR61QmbMzESFIBGERIUgEYSDyD6LW3Vivv54kAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:InterruptibleWhile Condition="[cnt&lt;21]" DisplayName="While" sap:VirtualizedContainerService.HintSize="412,947" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+              <ui:InterruptibleWhile.Body>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,782" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Nume'&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='AnKm'&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column3' Name='Pret'&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='article' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='text'&gt;&lt;webctrl tag='article' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='h3' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='text'&gt;&lt;webctrl tag='article' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='p' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column3' attr='text'&gt;&lt;webctrl tag='article' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='p' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="Rows" MaximumResults="0">
+                    <uix:NExtractData.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="284, 575, 714, 3941" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div' tag='DIV' /&gt;" InformativeScreenshot="2377abf2994eb00bfa708877db2d0d56.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mazda CX-5 second-hand | Automobil second-hand | mobile.de' /&gt;" SearchSteps="Selector" />
+                    </uix:NExtractData.Target>
+                  </uix:NExtractData>
+                  <ui:MergeDataTable Destination="[FirstTable]" DisplayName="Merge Data Table" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="MergeDataTable_1" MissingSchemaAction="Add" Source="[ExtractDataTable]" />
+                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="end" KeyModifiers="None" SpecialKey="True">
+                    <ui:SendHotkey.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="54f4f94d-415f-4805-a211-d17ffeed0cc4">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SendHotkey.Target>
+                  </ui:SendHotkey>
+                  <uix:NClick ClickType="Single" DisplayName="Click 'Menţiuni legale'" sap:VirtualizedContainerService.HintSize="334,166" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://www.mobile.de/ro/automobil/mazda-cx-5/vhc:car,ms1:16800_33_,frn:2012,frx:2018,mlx:100000,vcg:" DesignTimeRectangle="714, 569, 38, 34" FriendlyName="'A'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;a' href='/ro/automobil/mazda-cx-5/vhc:car,pgn:2,pgs:10,ms1:16800_33_,frn:*' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;a' href='/ro/automobil/mazda-cx-5/vhc:car,pgn:2,pgs:10,ms1:16800_33_,frn:*' tag='A' type='' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAAiCAYAAAAzrKu4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAExSURBVFhH7di9ioNAGIVhL9Qr83q0tNDGH6wEtbAQC7X8lnd3ZzBZFxLyjZmQHDhVMOdhJo0JxNO8DmyaJmmaRvI8lyzLnJYNtti8zgWsrmupqkrGcZR1XWXbNqdlgy02+77/VfzEwlCXZSnLshx+icsCZHt/chbGaaE/evCMso3BxMK47zOu77+yjcHEwvgxHj1wZjGYfGC39D1gYRhKFEWHn91bNRigIAi+q4FTPzEtnCqMauHUYVQD5wRGH8W9F8zLq/Tyx6+FomowIFooqn5iGiiqCtPsB3ZvXwvm7ctIURRPf33DYGJhbds+7YWXTbYxmFgYR8mrepqmMgzDKUA22GKTbQwmFkbmeba4JEkkjmOnZcOg2N7nAkZQc9/8ydF1ndOywdb+pEz+wPyIyBd/liD3aiuwXgAAAABJRU5ErkJggg==" InformativeScreenshot="0ba9a9b423953abdf3f4558eb3a19b5c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Mazda CX-5 second-hand | Automobil second-hand | mobile.de' /&gt;" SearchSteps="Image">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="194, 698, 79, 20" ElementType="Text" FriendlyName="'Menţiuni legale'" FullSelectorArgument="&lt;webctrl id='footImpr' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl id='footImpr' tag='A' type='' aaname='Menţiuni legale' check:text='Menţiuni legale' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFMAAAAYCAYAAACGLcGvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQaSURBVGhD7ZfPS2JRFMfnL7GNq3a6CSFqMYMb3QRC8hYxQSFMTDCRTCQYRYEyESIUIxFClIQIg0SYi1AIhSAhElo8CB60uBD0N3zn3PfzPnVM880PmLf4Lt555553z+edc959715eXuDKGbkwHZQL00G5MB2UC9NBuTAdlAvTQQkwGRRFAXu2O3Axsius2z6oaikv5k9ly/Y0Sjy+T9Zl53vstfdRNUxcC2Z9A54xL6R82+7U3EWQ7DYYQ8oOU0bxkxe+b3Wbz8C63oFvbA5FWbTLOFnwIl0XbU5ouLh2mNIMJCmHe8GhsTeFYHDq7cnrL8mQCvWZgfXyHVCsq6r/MZjy6Rw8qRyOpClkmroDq2LLv4RiiYCkLJjKTQHpzyFEZheRLrU0MHIJidldlK92sTwbwvxqDo0nzb+zzRv7ISR+8Os6DmZXUDaqTI2RRcPwOT7HSTKqPedC7xjBx4jXlbRcxcEqXxdFfL8KxfB7aqGYWiR7CMupc9TOVhDZ53kxyBc5JNScxDUDxtVlwrw/jmL+uA2ltIjgXlO1scs1BDarYLy6FvKQuY3aLCztoqHQumdq2VUfYmcE5iGP+bFxxI5bNNNkVLaporNanE6Y1nUdaWrZkwd9Q2qMDdR0H094AxWZ5msrR/YllPkzBR8jni3phwJik1QA6gtS0MjOIExdxVQf2t9hEzL/BrQKiIfHzSK5v2lqc5xyKien9HE3SFx+rcmEaSaolBD3880qKK/qVdqmBD7m1favbXsR2S6gclnV9H0Rnk8FyB1Jsos1eJLn6sPeCpO/XG1NC0dUTUd3dh8jnpg0LwrPl6y1v7MNRPw7aPAc1Lysdaqv2XFUnU1tTXE7pNsHiCvEs2ASpK0rLWhl04et0zyWg1SB/L6ZAN1LdsDkum6DdSYpVHNfmP4+MM01YoW8AvOQQIhJq6Juuct1JW/BbOIgEkI8f06+TdQODfsAcYV4Okxhs/xa/4JbX3aanWNrqFAb8Nnqo4ozgzxTy/DZ2AemNo+NChBBac9NXGhHHfmMqnxEmHwkBaUsbs3jDO2PjwcClqG25mNIbc3HKtJhGiV8Xx0x7/PdMH8d15IOk7dRFCdt4wY9ODijtZV6LbZjG+X1EALv+bAOIRyeQ+Za6QtTu2d9zUVQMs3ogH8CEaqM2PoSIiPC5J3V2I8iMPlB398MEiW9KAhghj4y05MTkJJ5lL9TYainFJqTlNO0tIT4F8ontdIFs29cXWabDy063qgV2etel7RNWXA6xGON8FPQWz0O90y8Zih/9SL+gwrBsNHPxOtHtt4/DVxvhzmMeJUKbf53RN0n+TAdW0NmbweJBR8Cnwu2M/Wo+jMw/yExuYXaZR23j72raxT9dzB/p1yYDsqF6aBcmA7KhemYXvATu4StwzfzMmwAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[cnt]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[cnt + 1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </ui:InterruptibleWhile.Body>
+            </ui:InterruptibleWhile>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIeSURBVDhPtZPPaxNREMeXVKQXS2pasILWhAqlIEVN04u0TY9txWJP9iCmWGlBpCJ4sXrS0INQT0Kl9SLYi0YP4sVD6MFIEGLIf5BNyCb7drObza9N3M3Xt9NWVFKxBweWGYb9fubt2+8IThiv7p1QVi9+YUvdYJEwVNOGpmkolUowDIOyruvUU1XVkhn7mBZFN4m1p5fPKvcHY2ylH+xWF5R3a9CbIGG1WkWtVqNcLpeptwdBQZY/iZmMR1AenM+wldM4LECWZeQkaUcg4f7zC8AR1et1NBoN2LaNSqXys1csFgkgSRLaAkockM/naaKqKkgkErAsiybH43EO0KAoSnuA+n4NXI/p6SkMD5/D0NAgOjpcWFgIYXQ0AH5tCIVuoMJP4wxpC/jOARMT4/B4uhGLfUYwOI7OzqOIRqOYmZlCb68H2WyWn0I9GDA2dgmBgJ9XwNzcVfh8Z6heXl4isCiK9El/Bfj9F0g0O3sFXm8/1YuLN9HTc/w/Ayz+onOBAwM+Ek1OBuF2d1E9P38NLpeAdDp9MKBqA1tbm9h4sYFms4nt7ddYf7YO0zQRibxFOPwEuVyOvCCwu97fAI4PNOc/7oVjnv1wdsIBtlotMMZ2faA+9Cf+BBzCyt8E/fn1k3yZdnYBx/4VYBcK8gfuhT7aSOPl7T7l0chXducU2JvHrGjaKU3XU1yQ4kLKfJ2px8UpPn0zmUweEQRB+AGw4f5/aVBQ+gAAAABJRU5ErkJggg==" InformativeScreenshot="312b3ef4a97eb76e3c60d7b2ae6b9005.png" Selector="&lt;html app='chrome.exe' title='Mazda CX-5 second-hand | Automobil second-hand | mobile.de'/&gt;" Url="https://www.mobile.de/ro/automobil/mazda-cx-5/vhc:car,ms1:16800_33_,frn:2012,frx:2018,mlx:100000,vcg:" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:WriteRange AddHeaders="False" DataTable="[FirstTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="488,115" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Sheet1" StartingCell="A1" WorkbookPath="FinalTable.xlsx" />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[FirstTable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="488,946" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="304,826" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="variable2" />
+              <Variable x:TypeArguments="x:String" Name="nume" />
+              <Variable x:TypeArguments="x:String" Name="ankm" />
+              <Variable x:TypeArguments="x:String" Name="pret" />
+              <Variable x:TypeArguments="x:String" Name="newpret" />
+              <Variable x:TypeArguments="x:Int32" Name="intpret" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_6">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[nume]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[row(0).ToString]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_7">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[ankm]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[row(1).ToString]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_8">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[pret]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[row(2).ToString]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_9">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[newpret]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[pret.Split(" "c)(0)]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_10">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[newpret]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">[newpret.Replace(".", nothing)]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_11">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Int32">[intpret]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Int32">[CInt(newpret)]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="262,134" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="Add">
+              <InvokeMethod.TargetObject>
+                <InArgument x:TypeArguments="scg:List(x:Int32)">[listaPret]</InArgument>
+              </InvokeMethod.TargetObject>
+              <InArgument x:TypeArguments="x:Int32">[intpret]</InArgument>
+            </InvokeMethod>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+    </ui:ForEachRow>
+    <Assign sap:VirtualizedContainerService.HintSize="488,60" sap2010:WorkflowViewState.IdRef="Assign_12">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[min]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">[listaPret.Min]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="488,60" sap2010:WorkflowViewState.IdRef="Assign_13">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[max]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">[listaPret.Max]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign sap:VirtualizedContainerService.HintSize="488,60" sap2010:WorkflowViewState.IdRef="Assign_14">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Double">[med]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Double">[listaPret.Average]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Body="[&quot;Pretul minim de vanzare este &quot; + min.ToString + &quot; Pretul maxim este  &quot; + max.ToString + &quot; iar pretul mediu este  &quot; + med.ToString]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="488,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_1" Importance="Normal" IsBodyHtml="False" IsDraft="False" Sensitivity="Normal" Subject="Exercise1" To="alin.ferenczi@fwfcompany.com">
+      <ui:SendOutlookMail.Files>
+        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+          <InArgument x:TypeArguments="x:String">C:\Users\Admin\Documents\UiPath\CautareMazda\FinalTable.xlsx</InArgument>
+        </scg:List>
+      </ui:SendOutlookMail.Files>
+    </ui:SendOutlookMail>
+  </Sequence>
+</Activity>
